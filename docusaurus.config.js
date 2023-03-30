@@ -50,7 +50,7 @@ const config = {
     //   textColor: "#eeeeee", // Defaults to `#000`.
     //   isCloseable: false, // Defaults to `true`.
     // },
-    
+
     // posthog: {
     //   apiKey: "H-htDCae7CR3RV57gUzmol6IAKtm5IMCvbcm_fwnL-w",
     //   appUrl: "https://app.posthog.com", // optional
@@ -95,7 +95,7 @@ const config = {
           label: "Customer Stories",
           position: "right",
         },
-      
+
         // {
         //   href: "https://signoz.io/pricing/",
         //   label: "Try SigNoz Cloud",
@@ -116,6 +116,12 @@ const config = {
           to: "pricing/",
           activeBasePath: "pricing",
           label: "Pricing",
+          position: "left",
+        },
+        {
+          to: "self-host/",
+          activeBasePath: "self-host",
+          label: "SelfHost",
           position: "left",
         },
       ],
