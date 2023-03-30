@@ -80,3 +80,48 @@
   flex: 0 0 auto;
   flex-direction: column;
 }
+
+.parent {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form__box {
+  background-color: #373737;
+  margin-left: 5%;
+  padding: 40px;
+}
+
+.form__box input {
+  background-color: #5c5c5c;
+  height: 40px;
+  width: 100% !important;
+  margin: 10px 0px;
+  border: transparent;
+  color: #b4b4b4;
+  border-radius: 2px;
+  padding: 0px 10px;
+}
+
+.form__box input:focus {
+  outline: none;
+}
+
+::placeholder {
+  color: #b4b4b4;
+  opacity: 1;
+}
+
+.form__box button {
+  height: 40px;
+  width: 100%;
+  background-color: #FF6321;
+  border: none;
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 10px;
+  border-radius: 2px;
+}
